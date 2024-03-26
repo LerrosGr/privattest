@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/math.css" />
+  </head>
+  <body>
+    <p><a href="./index.html">Go Back</a></p>
+    <form class="operations-form">
+      <input name="first-value" class="first-value" type="text" />
+
+      <select name="operations" class="option-list" id="lang">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="%">%</option>
+      </select>
+      <input name="last-value" class="last-value" type="text" />
+    </form>
+    <button class="result">Result</button>
+    <p class="output">Result:<span class="output-text"></span></p>
+    <script type="module" src="./js/math.js"></script>
+  </body>
+</html>
