@@ -14,7 +14,7 @@ function createCircle(amount) {
     circle.classList.add('circle');
     circle.style.backgroundColor = getRandomHexColor();
     circle.style.height = `${150 - i * 10}px`;
-    circle.style.width = `${1500 - i * 10}px`;
+    circle.style.width = `${150 - i * 10}px`;
     container.appendChild(circle);
     circle.addEventListener(
       'mouseover',
